@@ -153,3 +153,22 @@ In this CSS code, the `p` selector selects all `<p>` elements and applies the sp
 Using external CSS allows for easy maintenance and reusability of styles across multiple HTML documents. It also promotes a separation of concerns between the structure (HTML), presentation (CSS), and behavior (JavaScript) of a web page.
 
 ---
+
+## The Division Element
+
+The `<div>` element is a container that is used to group and organize other HTML elements. It does not have any semantic meaning on its own, but it is commonly used to create sections or divisions within a web page.
+
+```html
+<div>
+    <h1>Elegant Yachting Tours</h1>
+    <hr />
+    <!-- This is a paragraph section -->
+    <p>
+        We provide the best yachting experience in the world. Our yachts are the most luxurious and our staff are the most professional. We guarantee that you will have the best time of your life.
+    </p>
+</div>
+```
+
+In the example above, the `<div>` element is used to group the heading `<h1>`, horizontal rule `<hr>`, and paragraph `<p>` elements together. This helps to organize the content and apply styles or manipulate the group as a whole using CSS or JavaScript.
+
+The `<div>` element is a versatile and commonly used element in HTML, providing a way to structure and organize the content of a web page.

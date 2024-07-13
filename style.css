@@ -14,3 +14,23 @@ h1 {
     color: orange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+div {
+    border: 5px outset blue;
+    padding: 30px;
+}
+
+#discovery {
+    border: 10px outset #a7d8fa;
+    padding: 10px;
+}
+
+#images {
+    border: 10px outset #a7e77e;
+    padding: 10px;
+}
+
+.grey {
+    border: 10px outset #a7a7a7;
+    padding: 10px;
+}
