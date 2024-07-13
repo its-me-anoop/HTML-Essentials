@@ -1,3 +1,8 @@
+# HTML Essentials
+
+## Creating an HTML document
+
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,3 +15,4 @@
         </p>
     </body>
 </html>
+```
