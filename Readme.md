@@ -33,3 +33,9 @@
 </a>
 <a href="mailto:dave@elegantyachting.com">Mail us!</a>
 ```
+
+## Adding Comments
+
+```html
+<!-- This is a paragraph section -->
+```
