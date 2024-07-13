@@ -1,0 +1,18 @@
+# HTML Essentials
+
+## Creating an HTML document
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is a great title</title>
+    </head>
+    <body>
+        <h3>This is a Heading</h3>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae a cupiditate provident eaque laudantium architecto ea, illum officia ipsa, aut soluta incidunt! Repudiandae aspernatur nobis illo incidunt voluptates veniam quaerat.
+        </p>
+    </body>
+</html>
+```
