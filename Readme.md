@@ -22,3 +22,14 @@
 ```html
 <img src="images/image.png" alt="This is an image of a Yacht sailing in a wide sea" style="height: 500px; float: right" />
 ```
+
+## Adding Hyperlinks
+
+```html
+<a href="otherpage.html">Click here!</a>
+<a href="http://www.bbc.com" target="_blank">Click here!</a>
+<a href="https://en.wikipedia.org/wiki/Yacht">
+    <img src="images/image.png" alt="This is an image of a Yacht sailing in a wide sea" style="height: 500px; float: right" />
+</a>
+<a href="mailto:dave@elegantyachting.com">Mail us!</a>
+```
