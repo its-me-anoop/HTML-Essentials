@@ -16,3 +16,9 @@
     </body>
 </html>
 ```
+
+## Adding Images
+
+```html
+<img src="images/image.png" alt="This is an image of a Yacht sailing in a wide sea" style="height: 500px; float: right" />
+```
