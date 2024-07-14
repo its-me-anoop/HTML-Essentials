@@ -177,31 +177,66 @@ The `<div>` element is a versatile and commonly used element in HTML, providing 
 
 ## Navigation
 
-The navigation section of a website is crucial for providing easy access to different pages or sections. In HTML, you can create a navigation bar using the `<nav>` element. Here's an example of how to create a basic navigation bar:
+The navigation section of a website is crucial for providing easy access to different pages. Here is an example of HTML and CSS code for creating a navigation bar.
 
 ```html
 <nav>
-    <a href="home.html">Home</a>
-    <a href="tours.html">Tours</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="about.html">About</a>
-    <a href="contact-us.html">Contact</a>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact-us.html">Contact</a></li>
+    </ul>
 </nav>
 ```
 
-In the example above, each `<a>` element represents a link to a different page. The `href` attribute specifies the destination of the link. You can customize the link text and add more links as needed.
-
-To style the navigation bar, you can use CSS. Here's an example of how to style the navigation bar with a larger font size and a specific color:
+The HTML code above represents a navigation bar with a list of links. Each link is represented by an `<a>` tag within an `<li>` tag. The `href` attribute specifies the destination of each link.
 
 ```css
+/* Navigation styles */
 nav {
-    font-size: 40px;
-    color: #a53352;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    z-index: 1000;
+    background-color: rgba(50, 50, 60, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.52);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    font-family: "Montseratt", sans-serif;
+    font-size: 16px;
+    color: #e6e6e6;
+    text-decoration: none;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+nav a:hover {
+    color: #1b1b20;
+    border-bottom: 2px solid #e6e6e6;
 }
 ```
 
-In the CSS code above, the `nav` selector targets the `<nav>` element and applies the specified styles. You can modify the font size and color values to match your desired design.
+The CSS code above provides styling for the navigation bar. The `nav` selector targets the `<nav>` element and sets its position to fixed, making it stay at the top of the page. The `nav ul` selector targets the `<ul>` element inside the navigation and applies flexbox properties to horizontally align the list items. The `nav li` selector targets the `<li>` elements and adds margin to create spacing between them. The `nav a` selector targets the `<a>` elements and sets their font, color, and transition properties. The `nav a:hover` selector changes the color and adds a bottom border to the links when hovered over.
 
-By combining HTML and CSS, you can create a visually appealing and functional navigation bar for your website.
+By combining the HTML and CSS code, you can create a visually appealing and functional navigation bar for your website.
 
 ---
