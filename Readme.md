@@ -172,3 +172,36 @@ The `<div>` element is a container that is used to group and organize other HTML
 In the example above, the `<div>` element is used to group the heading `<h1>`, horizontal rule `<hr>`, and paragraph `<p>` elements together. This helps to organize the content and apply styles or manipulate the group as a whole using CSS or JavaScript.
 
 The `<div>` element is a versatile and commonly used element in HTML, providing a way to structure and organize the content of a web page.
+
+---
+
+## Navigation
+
+The navigation section of a website is crucial for providing easy access to different pages or sections. In HTML, you can create a navigation bar using the `<nav>` element. Here's an example of how to create a basic navigation bar:
+
+```html
+<nav>
+    <a href="home.html">Home</a>
+    <a href="tours.html">Tours</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="contact-us.html">Contact</a>
+</nav>
+```
+
+In the example above, each `<a>` element represents a link to a different page. The `href` attribute specifies the destination of the link. You can customize the link text and add more links as needed.
+
+To style the navigation bar, you can use CSS. Here's an example of how to style the navigation bar with a larger font size and a specific color:
+
+```css
+nav {
+    font-size: 40px;
+    color: #a53352;
+}
+```
+
+In the CSS code above, the `nav` selector targets the `<nav>` element and applies the specified styles. You can modify the font size and color values to match your desired design.
+
+By combining HTML and CSS, you can create a visually appealing and functional navigation bar for your website.
+
+---
