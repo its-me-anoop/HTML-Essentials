@@ -240,3 +240,53 @@ The CSS code above provides styling for the navigation bar. The `nav` selector t
 By combining the HTML and CSS code, you can create a visually appealing and functional navigation bar for your website.
 
 ---
+
+## CSS Update
+
+```html
+<section class="chapter-section">
+    <h2>Discover the Ocean's Mysteries</h2>
+    <!-- This is a paragraph section -->
+    <p>
+        Sail with us as we explore untouched islands, crystal clear waters, and breathtaking sunsets. Every tour is a curated experience, ensuring you witness the beauty and tranquility of the sea. Join us on a voyage of discovery and indulge in the luxury that only Elegant Yachting Tours can offer.
+    </p>
+</section>
+```
+
+```css
+.chapter-section {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 80px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.chapter-section h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #e6e6e6;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #e6e6e6;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.chapter-section p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+```
+
+The updated CSS code adds styling to the HTML section with the class "chapter-section". The section has a background color with transparency, rounded corners, padding, margin, and a box shadow to give it a visually appealing appearance. The maximum width is set to 800px and it is centered on the page.
+
+The heading `<h2>` within the section has a custom font, font size, color, and a bottom border to separate it from the paragraph.
+
+The paragraph `<p>` within the section has a custom font, font size, color, and line height to ensure readability.
+
+These CSS styles enhance the visual presentation of the HTML section, making it more attractive and engaging for readers.
+
+---
