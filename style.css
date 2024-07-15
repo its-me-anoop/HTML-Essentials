@@ -23,7 +23,7 @@ div {
     padding: 10px;
 }
 
-.chapter-section {
+.discovery-section {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     padding: 20px;
@@ -32,7 +32,7 @@ div {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.chapter-section h2 {
+.discovery-section h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     color: #e6e6e6;
@@ -42,7 +42,7 @@ div {
     padding-bottom: 5px;
 }
 
-.chapter-section p {
+.discovery-section p {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: #e6e6e6;

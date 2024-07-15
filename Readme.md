@@ -332,3 +332,76 @@ This markdown content demonstrates various text formatting options in HTML. It i
 These formatting options allow you to add emphasis, provide additional information, and style your text in various ways within your HTML content.
 
 ---
+
+## Semantic Elements
+
+```html
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact-us.html">Contact</a><li>
+        </ul>
+    </nav>
+    <!-- This is the header section -->
+    <header>
+        <h1>Elegant Yachting Tours</h1>
+        <h2>An experience that will sail your dreams into reality</h2>
+        <button>Book Now</button>
+    </header>
+
+    <!-- This is the main section -->
+    <section class="discovery-section">
+        <h2>Discover the Ocean's Mysteries</h2>
+        <!-- This is a paragraph section -->
+        <p>
+            Sail with us as we explore untouched islands, crystal clear waters, and breathtaking sunsets. Every tour is a curated experience, ensuring you witness the beauty and tranquility of the sea. Join us on a voyage of discovery and indulge in the luxury that only Elegant Yachting Tours can offer!
+        </p>
+    </section>
+
+    <!-- This is an article -->
+    <article>
+        <h2>Our Tours</h2>
+        <p>
+            Our tours are designed to cater to your every need. Whether you are looking for a romantic getaway, a family vacation, or a solo adventure, we have the perfect tour for you. Our experienced crew will ensure that you have a safe and enjoyable journey, while our luxurious yachts will provide you with the comfort and relaxation you deserve.
+        </p>
+    </article>
+
+    <!-- Aside -->
+    <aside>
+        <h2>Why Choose Us?</h2>
+        <p>
+            At Elegant Yachting Tours, we are committed to providing you with an unforgettable experience. Our tours are designed to cater to your every need, ensuring that you have a safe and enjoyable journey. Our experienced crew will take care of all the details, so you can relax and enjoy the beauty of the sea. Book your tour today and discover the magic of Elegant Yachting Tours!
+        </p>
+    </aside>
+
+    <!-- Figure -->
+    <figure>
+        <img src="images/image.png" alt="Yacht"  width="800px"/>
+        <figcaption>Image of a yacht</figcaption>
+    </figure>
+
+    <!-- This is the footer section -->
+    <footer>
+        <p>&copy; 2021 Elegant Yachting Tours</p>
+    </footer>
+
+</body>
+```
+
+This markdown content represents a web page structure using semantic HTML elements. It includes:
+
+- A navigation bar (`<nav>`) with links to different pages.
+- A header section (`<header>`) with a heading, subheading, and a button.
+- A main section (`<section>`) with a heading and a paragraph.
+- An article (`<article>`) with a heading and a paragraph.
+- An aside (`<aside>`) with a heading and a paragraph.
+- A figure (`<figure>`) with an image and a caption.
+- A footer section (`<footer>`) with a copyright notice.
+
+By using semantic elements, the HTML structure becomes more meaningful and easier to understand for both humans and search engines. It also helps with accessibility and allows for better styling and organization of the content.
+
+---
