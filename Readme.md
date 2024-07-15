@@ -290,3 +290,45 @@ The paragraph `<p>` within the section has a custom font, font size, color, and 
 These CSS styles enhance the visual presentation of the HTML section, making it more attractive and engaging for readers.
 
 ---
+
+## Text Formatting
+
+```html
+<p>
+    <ins>Sail</ins> with us as we explore <small>untouched</small> islands, crystal clear H<sub>2</sub>O, and <b>breathtaking</b> sunsets. <q cite="https://google.com"><em>Every tour</em> is a curated &nbsp;experience, <i>ensuring</i> you witness the <mark>beauty and tranquility</mark> of the sea.</q> <del>Join us on a voyage of discovery</del> and indulge in the luxury that only <strong>Elegant Yachting Tours</strong><sup>®</sup> can offer! We also offer tours to the <abbr>NASA</abbr> Space Center
+    <br><br>
+    <cite>The Hobbit</cite> by J.R.R Tolkien
+     <br><br>
+    <address>123 Yacht Street, Ocean City, OC 12345</address>
+    <br><br>
+    <bdo dir="rtl">This text has been reversed</bdo>
+    <br><br>
+    <code>
+        // Sample code
+        <br>
+        function greet() {
+            console.log("Hello, world!");
+        }
+    </code>
+</p>
+```
+
+This markdown content demonstrates various text formatting options in HTML. It includes examples of:
+
+- Inserted text using the `<ins>` tag
+- Small text using the `<small>` tag
+- Subscript text using the `<sub>` tag
+- Bold text using the `<b>` tag
+- Quoted text using the `<q>` tag with a citation
+- Deleted text using the `<del>` tag
+- Strong emphasis using the `<strong>` tag
+- Superscript text using the `<sup>` tag
+- Abbreviations using the `<abbr>` tag
+- Citations using the `<cite>` tag
+- Addresses using the `<address>` tag
+- Reversed text using the `<bdo>` tag with the `dir="rtl"` attribute
+- Code snippets using the `<code>` tag
+
+These formatting options allow you to add emphasis, provide additional information, and style your text in various ways within your HTML content.
+
+---
